@@ -7,15 +7,12 @@ function Homepage() {
 
 
     useEffect(() => {
-
         console.warn(Acts)
-
     }, [])
 
 
 
     return (
-
         <View>
             {Acts && Acts.map((act) => (
                 <View style={{ backgroundColor: 'red', margin: 20 }}>
